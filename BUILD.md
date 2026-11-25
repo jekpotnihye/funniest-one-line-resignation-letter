@@ -91,6 +91,8 @@ byte-identical output.
 
 ## Verification
 
-Final entry (87 chars, 17 words, within the 1–140 gate), run multiple
-times with byte-identical output; see the verification run in the
-worker report for the final SHA-256.
+Final entry (87 chars, 17 words, within the 1–140 gate), run 3 times
+with byte-identical output: SHA-256
+`dbb2d87fcc1ba71aeeae79a946c15bb5fb3b3b000c7da60d4a68d707dfe57098`,
+no trailing newline. Commit `cfe56a923451d359ff05747023facd43b0f89b4e`
+at verification time (a later commit only updates this note).
